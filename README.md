@@ -11,3 +11,4 @@ Symlink a skill into `~/.claude/skills/` so edits here stay live:
 ## Skills
 
 - `design-stack`: runs the full UI design pipeline (ui-ux-pro-max, design-taste-frontend, frontend-design, transitions-dev, web-artifacts-builder, brand-guidelines).
+- `bug-batch-fix`: turns a pasted bug list into records, fixes each with a background subagent in its own worktree, and lands one commit per bug on main (optionally with scheduled commit times via `pick.py`).
